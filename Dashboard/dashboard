@@ -1,7 +1,9 @@
-READING FOR PRESENT MONTH
-WILL BE RECORDED FOR THE PAST MONTH
-	example:
-		READING FOR MAY WILL BE RECORDED FOR APRIL
+READING RULES WATER AND ELECTRICITY:
+
+			Reading for the present month will be recorded for the past month
+
+			example:
+				READING FOR MAY WILL BE RECORDED FOR APRIL
 
 LEGEND:
 
@@ -9,11 +11,13 @@ LEGEND:
  PAS = PAST CUBC
  WR = WATER RATE
  ER = ELECTRICITY RATE
- * - PENDING
 
+ * - PENDING
+ *|* - REMANING BALANCE
  |*| - CONFIRM/DOUBLE CHECK
- |**| - PENDING COMPUTATION
- |***| - PENDING RECORD
+ |**| - PENDING COMPUTATION/RECORD
+ NULL - NO RECORD FOUND
+
 
 
  STANDARD ADVANCE
@@ -26,73 +30,56 @@ LEGEND:
   ------------------------------
   DUE DATES
 
-  APPART 1 - 1
-  APPART 2 - 4
-  APPART 3 - 28
-  APPART 4 - 10
-  APPART 5 - 8
-  APPART 6 - 8
-  APPART 7 - 11
-  APPART 8 - 2
+	  APP#1 - 1
+	  APP#2 - 4
+	  APP#3 - 28
+	  APP#4 - 10
+	  APP#5 - 8
+	  APP#6 - 8
+	  APP#7 - 11
+	  APP#8 - 2
 
 
   APRIL:
 
-  APPARTMENT 1
-        - *
-
-  APPARTMENT 2
-        - DONE
-
-  APPARTMENT 3
-        - *
-
-  APPARTMENT 4
-        - *
-
-  APPARTMENT 5
-        - DONE
-
-  APPARTMENT 6
-        - DONE
-
-  APPARTMENT 7
-        - DONE
-
-  APPARTMENT 8
-        - DONE
+	  APP#1 - DONE
+	  APP#2 - DONE
+	  APP#3 - DONE
+	  APP#4 - *|*
+	  APP#5 - DONE
+	  APP#6 - DONE
+		APP#7 - DONE
+		APP#8 - DONE
 
   MAY:
 
-  APPARTMENT 1
-       - *
-
-  APPARTMENT 2
-       - *
-
-  APPARTMENT 3
-      - *
-
-  APPARTMENT 4
-       - *
-
-  APPARTMENT 5
-      - *
-
-  APPARTMENT 6
-      - *
-
-  APPARTMENT 7
-       - *
-
-  APPARTMENT 8
-      DUE 2
-      - *
+		APP#1 - DONE
+	  APP#2 - *
+	  APP#3 - *
+	  APP#4 - *|*
+	  APP#5 - *
+	  APP#6 - *
+		APP#7 - DONE
+		APP#8 - DONE
 
 
   --------------------------------
 
-  MONTHLY TOTAL INCOME
+  MONTHLY TOTAL INCOME FOR RENT
+
+	APP#1 - 2500
+	APP#2 - 3000
+	APP#3 - 2500
+	APP#4 - 2500
+	APP#5 - 6500
+	APP#6 - 2000
+	APP#7 - 4000
+	APP#8 - 2500
+	________________
+
+	TOTAL - 25,5000
+
+
 
   --------------------------------
   MONTHLY CASH RECIEVE
@@ -105,16 +92,77 @@ LEGEND:
      - 2200  RENT:APP#2
   MAY:
     05/11/19
-      1000  -  RENT:APP#4 | UNCLE YAYAH: *
-  	05/11/19
-  		2500 - RENT:APP#8 | TRANSFERRED TO INA LASA: 5/12/19
+      1000 - RENT:APP#4
+  		2500 - RENT:APP#8
     05/14/2019
-      1500 -  RENT:APP#4  | UNCLE YAYAH: *
+      1500 -  RENT:APP#4
 
-    05/15/2019
-      7500 - RENT:APP#1
-        5000 - RENT FOR 04/19 t 05/19
+    05/15/199
+      7500 .:APP#1
+        5000 - RENT FOR 04/19 to 05/19
         2500 - DEDUCTED TO REMAINING BALANCE
+
+		05/16/19
+				5000  :APP#7
+					4000 - RENT FOR 05/11/19
+					1000 - ELECTRICITY  |**|
+
+				3864 : APP#3
+					2500 - RENT FOR 04/28/19
+					1082 - ELECTRICITY
+					282 - WATER
+
+
+	--------------------------------
+	 MONTHLY TRANSFERRED
+
+	 MAY
+		 	05/11/19
+			 		UNCLEYAYAH - 1000 | APP#4 | DEBT
+					INALASA - 2500 | APP#8
+
+			05/14/2019
+				UNCLEYAYAH - 1500 |  RENT:APP#4
+
+			05/16/2019
+					INALASA - 2500 | APP#1
+					UNCLEYAYAH - 1364 | APP#3
+
+
+	--------------------------------
+  MONTHLY AUDIT FOR TOTAL RENT
+		MAY
+			APP#1 -
+			APP#2 -
+			APP#3 -
+			APP#4 -
+			APP#5 -
+			APP#6 -
+			APP#7 -
+			APP#8 -
+
+	MONTHLY AUDIT FOR TOTAL WATER EXPENSE
+		MAY
+			APP#1 -
+			APP#2 -
+			APP#3 -
+			APP#4 -
+			APP#5 -
+			APP#6 -
+			APP#7 -
+			APP#8 -
+	MONTHY AUDIT FOR  TOTAL WATER ELECTRICITY
+		MAY
+			APP#1 -
+			APP#2 -
+			APP#3 -
+			APP#4 -
+			APP#5 -
+			APP#6 -
+			APP#7 -
+			APP#8 -
+
+
 
 
 
@@ -124,14 +172,6 @@ LEGEND:
     ELECTRICITY: 4/19
     WATER: 21/19
 
-   MAY:
-    DONE
-        CASH DEDUCTED FROM UNCLE YAYAH
-    DONE
-        CASH DEDUCTED FROM BOARDERS |*|
 
 
   ------------------------------------------------
-
-  NOTE:
-    UNCLE MONTHLY
