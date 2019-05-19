@@ -1,29 +1,35 @@
+
+SYSTEM START: 05/19
+
 READING RULES WATER AND ELECTRICITY:
 
-			Reading for the present month will be recorded for the past month
-
-			example:
-				READING FOR MAY WILL BE RECORDED FOR APRIL
+			*Reading should be 1 week before
+			*Reading for the present month will be recorded for the past month
+				example:
+					READING FOR MAY WILL BE RECORDED FOR APRIL
 
 LEGEND:
 
- PRE = PRESENT CUBIC
- PAS = PAST CUBC
- WR = WATER RATE
- ER = ELECTRICITY RATE
+ [PRE] = PRESENT CUBIC
+ [PAS] = PAST CUBC
+ [WR] = WATER RATE
+ [ER] = ELECTRICITY RATE
+ [W&E] = WATER AND ELECTRICITY
+ [TR] = MONEY IS TRANSFERRED
+ [NTR] = MONEY NOT TRANSFERRED
 
  * - PENDING
  *|* - REMANING BALANCE
  |*| - CONFIRM/DOUBLE CHECK
  |**| - PENDING COMPUTATION/RECORD
- NULL - NO RECORD FOUND
+ |***| - ERROR ON READING/COMPUTATION | NO CLEAR DATA FROM PAST READING AND RENT
+
 
 
 
  STANDARD ADVANCE
  	a.) 1 MONTH DEPOSIT && 1 MONTH ADVANCE
  	b.) 1 MONTH DEPOSIT && 1 MONTH ADVANCE && 1k WATER AND ELECTRIVT
-
 
   ------------------------------
 
@@ -54,7 +60,7 @@ LEGEND:
   MAY:
 
 		APP#1 - DONE
-	  APP#2 - *
+	  APP#2 - DONE
 	  APP#3 - *
 	  APP#4 - *|*
 	  APP#5 - *
@@ -79,54 +85,76 @@ LEGEND:
 
 	TOTAL - 25,5000
 
-
-
   --------------------------------
   MONTHLY CASH RECIEVE
 
   APRIL:
 
     04/20/19
-     - 1200  RENT:APP#2
+     - 1200  RENT:APP#2 [TR]
     04/23/19
-     - 2200  RENT:APP#2
+     - 2200  RENT:APP#2 [TR]
   MAY:
     05/11/19
-      1000 - RENT:APP#4
-  		2500 - RENT:APP#8
+      1000 - RENT:APP#4 [TR] |****|
+  		2500 - RENT FOR 05/02/19 :APP#8  [TR]
     05/14/2019
-      1500 -  RENT:APP#4
+      1500 -  RENT:APP#4 [TR] |****|
 
     05/15/199
-      7500 .:APP#1
-        5000 - RENT FOR 04/19 to 05/19
-        2500 - DEDUCTED TO REMAINING BALANCE
+      7500 :APP#1
+        2500 - RENT 05/01/19 [TR]
+        5000 - DEDUCTED TO REMAINING BALANCE [TR]
 
 		05/16/19
-				5000  :APP#7
-					4000 - RENT FOR 05/11/19
-					1000 - ELECTRICITY  |**|
+				5000 :APP#7
+					4000 - RENT FOR 05/11/19 [TR]
+					1000 - ELECTRICITY OR WATER |**| [NTR]
 
 				3864 : APP#3
-					2500 - RENT FOR 04/28/19
-					1082 - ELECTRICITY
-					282 - WATER
+					2500 - RENT FOR 04/28/19 [TR]
+					1082 - ELECTRICITY [NTR]
+					282 - WATER [NTR]
 
+		05/17/19
+
+				4300 : APP#2
+					3000 - RENT FOR 05/04/19  [TR]
+					800 - BALANCE [TR]
+					500 - WATER [TR]
+
+				2500 :  RENT FOR 04/28/19 :  APP#3 [TR]
 
 	--------------------------------
 	 MONTHLY TRANSFERRED
 
 	 MAY
 		 	05/11/19
-			 		UNCLEYAYAH - 1000 | APP#4 | DEBT
+			 		UNCLEYAYAH - 1000 | APP#4 |
 					INALASA - 2500 | APP#8
 
-			05/14/2019
-				UNCLEYAYAH - 1500 |  RENT:APP#4
+			05/14/19
+					UNCLEYAYAH - 1500 |  RENT:APP#4
 
-			05/16/2019
+			05/16/19
 					INALASA - 2500 | APP#1
 					UNCLEYAYAH - 1364 | APP#3
+						INALASA - 5000 | APP#7 | BY UNCLE BING
+
+			05/17/19
+					INALASA - 1220 | APP#1 |****|
+					INALASA - 1000 | APP#1 |****|
+						 NOTE: both money should be given to uncle yayah. because uncle bing forgot
+						 that berni already paid for april. next month house bill should be given to uncle yayah
+
+						 NOTE: deducted 1k from the 5k( APP#7 ) it should be the bill for the W&E and should
+						 	 be transferred to uncle yayah. because uncle yayah use the money of berni to pay the
+						 	 water bill. this 1k is again return to APP#1 Bill
+
+					INALASA - 3000 | APP#2
+					INALASA - 2500 | APP#3
+
+
 
 
 	--------------------------------
@@ -171,6 +199,12 @@ LEGEND:
   DUE DATE:
     ELECTRICITY: 4/19
     WATER: 21/19
+
+		MAY:
+			WATER: INSIRIJAM : 2566
+			WATER: JABIL : 1388
+
+
 
 
 
