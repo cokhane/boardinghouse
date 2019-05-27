@@ -10,8 +10,6 @@ READING RULES WATER AND ELECTRICITY:
 
 LEGEND:
 
- [PRE] = PRESENT CUBIC
- [PAS] = PAST CUBC
  [WR] = WATER RATE
  [ER] = ELECTRICITY RATE
  [W&E] = WATER AND ELECTRICITY
@@ -19,12 +17,10 @@ LEGEND:
  [NTR] = MONEY NOT TRANSFERRED
  [FR] = FOR READING
  [DR] = DONE READING
+ [CP] = CASH PAID
 
- * - PENDING
- *|* - REMANING BALANCE
- |*| - CONFIRM/DOUBLE CHECK
  |**| - PENDING COMPUTATION/RECORD
- |***| - ERROR ON READING/COMPUTATION | NO CLEAR DATA FROM PAST READING AND RENT
+ |**| - ERROR ON READING/COMPUTATION | NO CLEAR DATA FROM PAST READING AND RENT
 
 
 
@@ -110,10 +106,10 @@ LEGEND:
      - 2200  RENT:APP#2 [TR]
   MAY:
     05/11/19
-      1000 - RENT:APP#4 [TR] |****|
+      1000 - RENT:APP#4 [TR]
   		2500 - RENT FOR 05/02/19 :APP#8  [TR]
     05/14/2019
-      1500 -  RENT:APP#4 [TR] |****|
+      1500 -  RENT:APP#4 [TR]
 
     05/15/19
       7500 :APP#1
@@ -144,53 +140,25 @@ LEGEND:
 					1000 - RENT [NTR]
 					500 - W&E [TR]
 
-
-
-	--------------------------------
-	 MONTHLY TRANSFERRED
-
-	 MAY
-		 	05/11/19
-			 		UNCLEYAYAH - 1000 | APP#4 |
-					INALASA - 2500 | APP#8
-
-			05/14/19
-					UNCLEYAYAH - 1500 |  RENT:APP#4
-
-			05/16/19
-					INALASA - 2500 | APP#1
-					UNCLEYAYAH - 1364 | APP#3
-						INALASA - 5000 | APP#7 | BY UNCLE BING
-
-			05/17/19
-					INALASA - 1220 | APP#1 |****|
-					INALASA - 1000 | APP#1 |****|
-						 NOTE: both money should be given to uncle yayah. because uncle bing forgot
-						 that berni already paid for april. next month house bill should be given to uncle yayah
-
-						 NOTE: deducted 1k from the 5k( APP#7 ) it should be the bill for the W&E and should
-						 	 be transferred to uncle yayah. because uncle yayah use the money of berni to pay the
-						 	 water bill. this 1k is again return to APP#1 Bill
-
-					INALASA - 3000 | APP#2
-					INALASA - 2500 | APP#3
-
-			05/19/19
-					UNCLEYAYAH - 500 | APP#4
-
+		05/25/19
+				8500: APP#5 && APP#6
+					8500 - RENT [TR]
+					4500 - RENT [TR]
+				1500: APP#4
+					1500 - [NTR]
 
 
 	--------------------------------
   MONTHLY AUDIT FOR TOTAL RENT
 		MAY
-			APP#1 -
-			APP#2 -
+			APP#1 - 2500
+			APP#2 - 3000
 			APP#3 -
-			APP#4 -
-			APP#5 -
-			APP#6 -
-			APP#7 -
-			APP#8 -
+			APP#4 - 2500
+			APP#5 - 2000
+			APP#6 - 6500
+			APP#7 - 4000
+			APP#8 - 2500
 
 	MONTHLY AUDIT FOR TOTAL WATER EXPENSE
 		MAY
@@ -202,6 +170,7 @@ LEGEND:
 			APP#6 -
 			APP#7 -
 			APP#8 -
+
 	MONTHY AUDIT FOR  TOTAL WATER ELECTRICITY
 		MAY
 			APP#1 -
@@ -237,5 +206,6 @@ LEGEND:
 	1082 - ELECTRICITY [NTR]
 	282 - WATER [NTR]
 	1000 - RENT [NTR]
+ 	1500 - RENT [NTR]
 
-	TOTAL: 3364
+	TOTAL: 4864
