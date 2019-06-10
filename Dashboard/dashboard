@@ -1,3 +1,6 @@
+UPDATED THIS: 6/10/19
+
+
 
 SYSTEM START: 05/19
 
@@ -19,9 +22,9 @@ LEGEND:
  [DR] = DONE READING
  [CP] = CASH PAID
  [UFB] = USE FOR BILLS
+ [OD] = OVERDUE
 
  * - WITH W&E BALANCE
- |**| - CHECK/PENDING COMPUTATION/RECORD
 
 
 
@@ -63,13 +66,13 @@ LEGEND:
   --------------------------------
   MONTHLY CASH RECIEVE
 
-  APRIL:
+  APRIL --------------------------------------------------------------------
 
     04/20/19
      - 1200  RENT:APP#2 [TR]
     04/23/19
      - 2200  RENT:APP#2 [TR]
-  MAY:
+  MAY --------------------------------------------------------------------
     05/11/19
       1000 - RENT FOR APRIL:APP#4 [TR]
   		2500 - RENT FOR 05/02/19 :APP#8  [TR]
@@ -116,10 +119,13 @@ LEGEND:
 				5000: APP#1
 					2500 - RENT [NTR]
 					2500 - W&E [TR]
+	 JUNE --------------------------------------------------------------------
+	 06/10/19
+	 			5702: APP#8
+					2500 - RENT [NTR]
+					752 - WATER [TR]
+					2450 - ELECTRICITY [TR]
 
-
-		05/31/19
-				1689: APP#4 - ADVANCE
 
 
 	--------------------------------
@@ -129,23 +135,23 @@ LEGEND:
 
 		APP#1 - DONE *
 	  APP#2 - DONE
-	  APP#3 - |**| [DR] DELAYED AND WILL PAY ON JUNE 15
-	  APP#4 - |**| *
-	  APP#5 - DONE *
-	  APP#6 - DONE *
+	  APP#3 - [OD][DR] DELAYED AND WILL PAY ON JUNE 15
+	  APP#4 - DONE *
+	  APP#5 - DONE * ASK UNCLE
+	  APP#6 - DONE * ASK UNCLE
 		APP#7 - DONE *
 		APP#8 - DONE
 
 	JUNE
 
-		APP#1 - DONE*
-		APP#2 - [DR] 05/25/19  (double check water)
+		APP#1 - DONE *
+		APP#2 - [DR][OD]
 		APP#3 - [FR] 06/22/19
 		APP#4 - [FR] 06/01/19
-		APP#5 - [FR] 06/22/19
-		APP#6 - [FR] 06/22/19
-		APP#7 - [FR] 06/01/19
-		APP#8 - [FR] 06/04/19
+		APP#5 - [DR] [OD]
+		APP#6 - [DR] [OD]
+		APP#7 - [DR] *
+		APP#8 - DONE
 
 
 
@@ -212,12 +218,15 @@ LEGEND:
 	NTR - UPDATED 5/31/19
 
 
-	1000 - RENT [NTR]
- 	1500 - RENT [NTR]
-	2500 - RENT [NTR]
+	1000 - RENT [NTR] APP#4
+ 	1500 - RENT [NTR] APP#4
+	2500 - RENT [NTR] APP#1
 
 	TOTAL: 4000
 
-	UNCLE DEBT - 1800 BECAUSE OF ELECTRICITY
+	UNCLE DEBT -
+
+	2000 - LEND
+	1500 - DISCOUNTED WATER
 
 	-----------------------------------------
