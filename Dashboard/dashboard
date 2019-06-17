@@ -1,4 +1,4 @@
-UPDATED THIS: 6/10/19
+UPDATED THIS: 6/17/19
 
 
 
@@ -125,6 +125,16 @@ LEGEND:
 					2500 - RENT [NTR]
 					752 - WATER [TR]
 					2450 - ELECTRICITY [TR]
+	 06/13/19
+	 			9722:
+				 APP#6
+				 	2000 - RENT
+				  564 - WATER [TR]
+				 APP#5
+				  6500 - RENT [TR] UNCLE HAS 4k HERE
+					658 - WATER [TR]
+
+
 
 
 
@@ -199,8 +209,8 @@ LEGEND:
   ------------------------------------------------
 
   DUE DATE:
-    ELECTRICITY: 4/19
-    WATER: 21/19
+    ELECTRICITY: 4
+    WATER: 21
 
 		MAY:
 			ELECTRICITY: 3959
@@ -209,8 +219,8 @@ LEGEND:
 
 		JUNE:
 			ELECTRICITY: 5170
-			WATER: INSIRIJAM : NULL
-			WATER: JABIL : NULL
+			WATER: INSIRIJAM : 924  [NP]
+			WATER: JABIL : 2900 [NP]
 
 
   ------------------------------------------------
