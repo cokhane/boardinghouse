@@ -14,6 +14,7 @@ READING RULES WATER AND ELECTRICITY:
 LEGEND:
 
  [WR] = WATER RATE
+ [HB] = HAS BALANCE
  [ER] = ELECTRICITY RATE
  [W&E] = WATER AND ELECTRICITY
  [TR] = MONEY IS TRANSFERRED
@@ -23,9 +24,7 @@ LEGEND:
  [CP] = CASH PAID
  [UFB] = USE FOR BILLS
  [OD] = OVERDUE
-
- * - WITH W&E BALANCE
-
+ [*] - WITH W&E BALANCE
 
 
 
@@ -41,8 +40,8 @@ LEGEND:
 	  APP#2 - 4
 	  APP#3 - 28
 	  APP#4 - 10
-	  APP#5 - 8/30
-	  APP#6 - 8/30
+	  APP#5 - 8
+	  APP#6 - 8
 	  APP#7 - 11
 	  APP#8 - 2
 
@@ -101,11 +100,11 @@ LEGEND:
 					800 - BALANCE [TR]
 					500 - WATER [TR]
 
-				2500 :  RENT FOR 04/28/19 :  APP#3 [TR]
+				2500 :  APP#3  RENT FOR 04/28/19 :  APP#3 [TR]
 
 		05/19/19
 				1500 : APP#4
-					1000 - RENT  [NTR]
+					1000 - RENT  [TR]
 					500 - W&E [TR]
 
 		05/25/19
@@ -113,26 +112,45 @@ LEGEND:
 					8500 - RENT [TR]
 					4500 - RENT [TR]
 				1500: APP#4
-					1500 - [NTR]
+					1500 - [TR]
 
 		05/28/19
 				5000: APP#1
 					2500 - RENT [NTR]
 					2500 - W&E [TR]
+
 	 JUNE --------------------------------------------------------------------
 	 06/10/19
 	 			5702: APP#8
 					2500 - RENT [NTR]
 					752 - WATER [TR]
 					2450 - ELECTRICITY [TR]
+
+				1000 : APP#4
+					1000 - BALANCE [TR]
+
+
 	 06/13/19
 	 			9722:
 				 APP#6
-				 	2000 - RENT
+				 	2000 - RENT [TR]
 				  564 - WATER [TR]
 				 APP#5
-				  6500 - RENT [TR] UNCLE HAS 4k HERE
+				  6500 - RENT [NTR] 4500 to ina lasa
 					658 - WATER [TR]
+
+				3,529: APP#3
+				  2500 - RENT [NTR]
+					329 - WATER [TR]
+					700 - ELECTRICITY [TR]
+
+				3878: APP#2
+					3000 - RENT [NTR]
+					878 - ELECTRICITY [TR]
+					500 - WATER [TR]
+
+
+
 
 
 
@@ -143,24 +161,24 @@ LEGEND:
 
   MAY:
 
-		APP#1 - DONE *
+		APP#1 - DONE [HB]
 	  APP#2 - DONE
 	  APP#3 - [OD][DR] DELAYED AND WILL PAY ON JUNE 15
-	  APP#4 - DONE *
-	  APP#5 - DONE * ASK UNCLE
-	  APP#6 - DONE * ASK UNCLE
-		APP#7 - DONE *
+	  APP#4 - DONE  [HB]
+	  APP#5 - DONE  [HB]
+	  APP#6 - DONE  [HB]
+		APP#7 - DONE  [HB]
 		APP#8 - DONE
 
 	JUNE
 
-		APP#1 - DONE *
-		APP#2 - [DR][OD]
-		APP#3 - [FR] 06/22/19
+		APP#1 - DONE  [HB]
+		APP#2 - DONE
+		APP#3 - DONE
 		APP#4 - [FR] 06/01/19
-		APP#5 - [DR] [OD]
-		APP#6 - [DR] [OD]
-		APP#7 - [DR] *
+		APP#5 - DONE
+		APP#6 - DONE
+		APP#7 - [DR]  [HB]
 		APP#8 - DONE
 
 
@@ -171,7 +189,7 @@ LEGEND:
 		MAY
 			APP#1 - 2500
 			APP#2 - 3000
-			APP#3 -
+			APP#3 - 2500
 			APP#4 - 2500
 			APP#5 - 2000
 			APP#6 - 6500
