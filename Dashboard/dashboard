@@ -152,6 +152,18 @@ LEGEND:
 
 
 
+		06/23/19
+					3000 : APP#1 [PENDING]
+		06/25/19
+					1000 : APP#4
+						1000 - BALANCE [TR]
+
+
+
+
+
+
+
 
 
 
@@ -180,6 +192,18 @@ LEGEND:
 		APP#6 - DONE
 		APP#7 - [DR]  [HB]
 		APP#8 - DONE
+
+		JULY
+
+			APP#1 - DONE  [HB]
+			APP#2 - DONE
+			APP#3 - DONE
+			APP#4 - [FR] 06/01/19
+			APP#5 - DONE
+			APP#6 - DONE
+			APP#7 - [DR]  [HB]
+			APP#8 - DONE
+
 
 
 
@@ -237,8 +261,8 @@ LEGEND:
 
 		JUNE:
 			ELECTRICITY: 5170
-			WATER: INSIRIJAM : 924  [NP]
-			WATER: JABIL : 2900 [NP]
+			WATER: INSIRIJAM : 924
+			WATER: JABIL : 2900
 
 
   ------------------------------------------------
