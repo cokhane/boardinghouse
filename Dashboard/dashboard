@@ -1,4 +1,4 @@
-UPDATED THIS: 6/17/19
+UPDATED THIS: 6/28/19
 
 
 
@@ -122,7 +122,7 @@ LEGEND:
 	 JUNE --------------------------------------------------------------------
 	 06/10/19
 	 			5702: APP#8
-					2500 - RENT [NTR]
+					2500 - RENT [TR]
 					752 - WATER [TR]
 					2450 - ELECTRICITY [TR]
 
@@ -153,10 +153,10 @@ LEGEND:
 
 
 		06/23/19
-					3000 : APP#1 [PENDING]
+					3000 : APP#1 [TR] [CHECK]
 		06/25/19
 					1000 : APP#4
-						1000 - BALANCE [TR]
+						1000 - BALANCE [NTR]
 
 
 
@@ -267,18 +267,18 @@ LEGEND:
 
   ------------------------------------------------
 
-	NTR - UPDATED 5/31/19
-
-
-	1000 - RENT [NTR] APP#4
- 	1500 - RENT [NTR] APP#4
 	2500 - RENT [NTR] APP#1
+	3000 - RENT [NTR] APP#2
+	2500 - RENT [NTR] APP#3
+	4500 - 4500 [NTR] INASAL
 
-	TOTAL: 4000
+	total my balance = 12500 [NOT PAID]
 
-	UNCLE DEBT -
+	UNCLE DEBT - 3k [NOT PAID]
 
-	2000 - LEND
-	1500 - DISCOUNTED WATER
+
+	6/28/19 - UNCLE GIVE ME 5k for electricty
+
+
 
 	-----------------------------------------
