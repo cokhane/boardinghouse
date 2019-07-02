@@ -16,7 +16,8 @@ LEGEND:
  [WR] = WATER RATE
  [WU] = WATER UP
  [WD] = WATER DOWN
- [E] = ELECTRICITY
+ [EB] = ELECTRICITY
+ [WB] = ELECTRICITY
  [TB] = TOTAL BALANCE
  [LB] = LATEST BALANCE
  [HB] = HAS BALANCE
@@ -80,10 +81,10 @@ LEGEND:
      - 2200  RENT:APP#2 [TR]
   MAY --------------------------------------------------------------------
     05/11/19
-      1000 - RENT FOR APRIL:APP#4 [TR]
+      1000 - RENT FOR 04/19 :APP#4 [TR]
   		2500 - RENT FOR 05/02/19 :APP#8  [TR]
     05/14/2019
-      1500 -  RENT FOR APRIL :APP#4 [TR]
+      1500 -  RENT FOR 04/19 :APP#4 [TR]
 
     05/15/19
       7500 :APP#1
@@ -94,7 +95,7 @@ LEGEND:
 
 		05/16/19
 				5000 :APP#7
-					4000 - RENT FOR 05/11/19 [TR]
+					4000 - RENT FOR 05/19 [TR]
 					1000 - W&E [TR] [UFB]
 
 				3864 : APP#3
@@ -109,79 +110,89 @@ LEGEND:
 					800 - BALANCE [TR]
 					500 - WATER [TR]
 
-				2500 :  APP#3  RENT FOR 04/28/19 :  APP#3 [TR]
+				2500 :  APP#3  RENT FOR 04/19 :  APP#3 [TR]
 
 		05/19/19
 				1500 : APP#4
-					1000 - RENT  [TR]
+					1000 - RENT 05/19  [TR]
 					500 - W&E [TR]
 
 		05/25/19
 				8500: APP#5 && APP#6
-					8500 - RENT [TR]
-					4500 - RENT [TR]
+					8500 - RENT FOR 05/19 [TR]
+					4500 - RENT FOR 05/19 [TR]
 				1500: APP#4
-					1500 - [TR]
+					1500 -  05/19 [TR]
 
 		05/28/19
 				5000: APP#1
-					2500 - RENT [NTR] 06/01/19
+					2500 - RENT FOR 06/19 [NTR]
 					2500 - W&E [TR]
 
 	 JUNE --------------------------------------------------------------------
 	 06/10/19
 	 			5702: APP#8
-					2500 - RENT [TR]
+					2500 - RENT 06/19 [TR]
 					752 - WATER [TR]
 					2450 - ELECTRICITY [TR]
 
 				1000 : APP#4
-					1000 - BALANCE  [MWU]
+					1000 - RENT FOR 06/19  [MWU]
 
 	 06/13/19
 	 			9722:
 				 APP#6
-				 	2000 - RENT [TR]
+				 	2000 - RENT 06/19 [TR]
 				  564 - WATER [TR]
 				 APP#5
-				  6500 - RENT [NTR] 4500 to ina lasa
+				  6500 - RENT 06/19 [NTR] 4500 to ina lasa
 					658 - WATER [TR]
 
 				3,529: APP#3
-				  2500 - RENT [NTR]
+				  2500 - RENT FOR 05/19 [NTR]
 					329 - WATER [TR]
 					700 - ELECTRICITY [TR]
 
 				3878: APP#2
-					3000 - RENT  [MWU]
+					3000 - RENT FOR 06/19  [MWU]
 					878 - ELECTRICITY [TR]
 					500 - WATER [TR]
 
+   	06/20/19
+					1000:APP#4
+						1000 - RENT FOR 06/19  [MWU]
+
 
 		06/23/19
-					3000:APP#1 [MWU]
-						2500 - RENT
+					3000:APP#1
+						2500 - RENT FOR 07/19[MWU]
 						500 - [W&E] [TR]
 		06/25/19
 					1000 : APP#4
-						1000 - BALANCE [MWU]
+						500 - RENT FOR 06/19  [MWU]
+						500 - [W&E] [MWU]
 
 
 
-	  JULY --------------------------------------------------------------------
+	  JULY
+		--------------------------------------------------------------------
 
 		07/01/19
 					1000 : APP#4
-						1000 - BALANCE [TR] [*]
+						1000 - [W&E] [TR]
+
+
+
+
+
 
 	--------------------------------
-
 
   MAY:
 
 		APP#1 - DONE [HB]
 	  APP#2 - DONE
-	  APP#3 - [OD][DR] DELAYED AND WILL PAY ON JUNE 15
+	  APP#3 - DONE
 	  APP#4 - DONE  [HB]
 	  APP#5 - DONE  [HB]
 	  APP#6 - DONE  [HB]
@@ -189,26 +200,24 @@ LEGEND:
 		APP#8 - DONE
 
 	JUNE
-
-		APP#1 - DONE  [HB]
+		APP#1 - DONE [HB]
 		APP#2 - DONE
-		APP#3 - [OD]
-		APP#4 - [FR] 06/01/19 [*]
+		APP#3 - [OD] [HB]
+		APP#4 - DONE [HB]
 		APP#5 - DONE
 		APP#6 - DONE
 		APP#7 - [OD] [HB]
 		APP#8 - DONE
 
-		JULY
-
-			APP#1 - DONE [HB] [FR] NOW
-			APP#2 - [FR] 7/12/19
-			APP#3 - [FR] 7/26/19
-			APP#4 - [FR] 7/12/19
-			APP#5 - [FR] 7/5/19
-			APP#6 - [FR] 7/5/19
-			APP#7 - [FR]
-			APP#8 - [FR]
+	JULY
+		APP#1 - DONE [HB]
+		APP#2 - [FR] 7/12/19
+		APP#3 - [FR] 7/28/19
+		APP#4 - [DR] [HB]
+		APP#5 - [FR] 7/5/19
+		APP#6 - [FR] 7/5/19
+		APP#7 - [DR]
+		APP#8 - [FR]
 
 
 
