@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+read -n 1 -s -r -p "Press any key to continue"
+
+git status
+
+git add .
+
+
+read -p 'commit message: ' uservar
+
+git commit -m '$uservar'
+
+git push

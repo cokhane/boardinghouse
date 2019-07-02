@@ -1,4 +1,4 @@
-UPDATED THIS: 7/1/19
+UPDATED THIS: 7/2/19
 
 
 
@@ -14,17 +14,24 @@ READING RULES WATER AND ELECTRICITY:
 LEGEND:
 
  [WR] = WATER RATE
+ [WU] = WATER UP
+ [WD] = WATER DOWN
+ [E] = ELECTRICITY
+ [TB] = TOTAL BALANCE
+ [LB] = LATEST BALANCE
  [HB] = HAS BALANCE
  [ER] = ELECTRICITY RATE
  [W&E] = WATER AND ELECTRICITY
- [TR] = MONEY IS TRANSFERRED
+ [TR] = MONEY TRANSFERRED
  [NTR] = MONEY NOT TRANSFERRED
  [FR] = FOR READING
  [DR] = DONE READING
  [CP] = CASH PAID
  [UFB] = USE FOR BILLS
  [OD] = OVERDUE
- [*] - WITH W&E BALANCE
+ [*] = DOUBLE CHECK / ERROR
+ [MWU] = MONEY WITH UNCLE
+ [DLY]  = DELAYED
 
 
 
@@ -83,6 +90,8 @@ LEGEND:
         2500 - RENT 05/01/19 [TR]
         5000 - DEDUCTED TO REMAINING BALANCE [TR]
 
+				2500 -  DEDUCTED TO REMAINING BALANCE [TR] - FORGOTTEN CASH PAID
+
 		05/16/19
 				5000 :APP#7
 					4000 - RENT FOR 05/11/19 [TR]
@@ -116,7 +125,7 @@ LEGEND:
 
 		05/28/19
 				5000: APP#1
-					2500 - RENT [NTR]
+					2500 - RENT [NTR] 06/01/19
 					2500 - W&E [TR]
 
 	 JUNE --------------------------------------------------------------------
@@ -127,8 +136,7 @@ LEGEND:
 					2450 - ELECTRICITY [TR]
 
 				1000 : APP#4
-					1000 - BALANCE [TR]
-
+					1000 - BALANCE  [MWU]
 
 	 06/13/19
 	 			9722:
@@ -145,28 +153,26 @@ LEGEND:
 					700 - ELECTRICITY [TR]
 
 				3878: APP#2
-					3000 - RENT [NTR]
+					3000 - RENT  [MWU]
 					878 - ELECTRICITY [TR]
 					500 - WATER [TR]
 
 
-
-
 		06/23/19
-					3000 : APP#1 [TR] [CHECK]
+					3000:APP#1 [MWU]
+						2500 - RENT
+						500 - [W&E] [TR]
 		06/25/19
 					1000 : APP#4
-						1000 - BALANCE [NTR]
+						1000 - BALANCE [MWU]
 
 
 
+	  JULY --------------------------------------------------------------------
 
-
-
-
-
-
-
+		07/01/19
+					1000 : APP#4
+						1000 - BALANCE [TR] [*]
 
 	--------------------------------
 
@@ -186,23 +192,23 @@ LEGEND:
 
 		APP#1 - DONE  [HB]
 		APP#2 - DONE
-		APP#3 - DONE
-		APP#4 - [FR] 06/01/19
+		APP#3 - [OD]
+		APP#4 - [FR] 06/01/19 [*]
 		APP#5 - DONE
 		APP#6 - DONE
-		APP#7 - [DR]  [HB]
+		APP#7 - [OD] [HB]
 		APP#8 - DONE
 
 		JULY
 
-			APP#1 - DONE  [HB]
-			APP#2 - DONE
-			APP#3 - DONE
-			APP#4 - [FR] 06/01/19
-			APP#5 - DONE
-			APP#6 - DONE
-			APP#7 - [DR]  [HB]
-			APP#8 - DONE
+			APP#1 - DONE [HB] [FR] NOW
+			APP#2 - [FR] 7/12/19
+			APP#3 - [FR] 7/26/19
+			APP#4 - [FR] 7/12/19
+			APP#5 - [FR] 7/5/19
+			APP#6 - [FR] 7/5/19
+			APP#7 - [FR]
+			APP#8 - [FR]
 
 
 
@@ -245,9 +251,6 @@ LEGEND:
 			APP#8 -
 
 
-
-
-
   ------------------------------------------------
 
   DUE DATE:
@@ -265,6 +268,12 @@ LEGEND:
 			WATER: JABIL : 2900
 
 
+			JUNE:
+				ELECTRICITY: 6659
+				WATER: INSIRIJAM :
+				WATER: JABIL :
+
+
   ------------------------------------------------
 
 	2500 - RENT [NTR] APP#1
@@ -274,10 +283,10 @@ LEGEND:
 
 	total my balance = 12500 [NOT PAID]
 
-	UNCLE DEBT - 3k [NOT PAID]
+	UNCLE DEBT - 3000 [NOT PAID]
+	UNCLE DEBT - 1600 [NOT PAID]
 
-
-	6/28/19 - UNCLE GIVE ME 5k for electricty
+	6/28/19 - UNCLE GIVE ME 5k for electricity
 
 
 
