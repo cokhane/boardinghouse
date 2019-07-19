@@ -150,4 +150,19 @@ difference of statefull and stateless
 
 
 what are the life cycle?
-  -
+  - componentWillMount()
+    is executed just before rendering both on client and server side
+  - componentDidMount()
+    is executed after first render only on the client side
+  - componentWillRecieveProps()
+   is invoked as soon as props are recieve from parent class before another
+   render is called
+  - shouldComponentUpdate()
+   returns true or false value based on certain contion. false is default
+  - comoponentWillUpdate()
+   is called just before rendering take place
+  -componentDidUpdate() 
+   is called just after rendering takes palce
+  -componentWillUnmount()
+   is called after the component is unmounted from the dom
+   to clear up the memory space 
