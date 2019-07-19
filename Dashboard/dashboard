@@ -33,6 +33,7 @@ LEGEND:
  [*] = DOUBLE CHECK / ERROR
  [MWU] = MONEY WITH UNCLE
  [DLY]  = DELAYED
+ [MM] = MY MONEY
 
 
 
@@ -126,7 +127,7 @@ LEGEND:
 
 		05/28/19
 				5000: APP#1
-					2500 - RENT FOR 06/19 [NTR]
+					2500 - RENT FOR 06/19
 					2500 - W&E [TR]
 
 	 JUNE --------------------------------------------------------------------
@@ -145,16 +146,16 @@ LEGEND:
 				 	2000 - RENT 06/19 [TR]
 				  564 - WATER [TR]
 				 APP#5
-				  6500 - RENT 06/19 [NTR] 4500 to ina lasa
+				  6500 - RENT 06/19 [TR] 4500 to ina lasa
 					658 - WATER [TR]
 
 				3,529: APP#3
-				  2500 - RENT FOR 05/19 [NTR]
+				  2500 - RENT FOR 05/19 [TR]
 					329 - WATER [TR]
 					700 - ELECTRICITY [TR]
 
 				3878: APP#2
-					3000 - RENT FOR 06/19  [NTR]
+					3000 - RENT FOR 06/19  [TR]
 					878 - ELECTRICITY [TR]
 					500 - WATER [TR]
 
@@ -186,28 +187,29 @@ LEGEND:
 
 		07/12/19
 					4804: APP#8
-					2500 - RENT [NTR]
-					2304 - RENT [TR]
+					2500 - RENT for 7/19 [NTR]
+					304 - [W&E] [TR]
+					2000 - [MM] [TR]
 
 					1000: APP#3
-					1000 - RENT [NTR]
+					1000 -  [W&E] [TR]
 
 		07/14/19
 				 2500: APP#7
-				 2500 - RENT [NTR]
+				 2500 - RENT  for 7/19 [NTR]
 
 	  07/15/19
 				 2500: APP#7
-				 2500 - RENT [NTR]
+				 2000 - RENT for 6/19 [NTR]
+				 500 - [W&E] [TR]
 
 	  07/16/19
 				 2000: APP#7
- 				 2000 - RENT [NTR]
-
+ 				 2000 - RENT for 6/19 [NTR]
 
 		07/19/19
 				2500: APP#3
-				2500- RENT [NTR]
+				2500 - RENT for 6/19 [NTR]
 
 
 	--------------------------------
