@@ -131,6 +131,7 @@ LEGEND:
 					2500 - W&E [TR]
 
 	 JUNE --------------------------------------------------------------------
+
 	 06/10/19
 	 			5702: APP#8
 					2500 - RENT 06/19 [TR]
@@ -187,7 +188,7 @@ LEGEND:
 
 		07/12/19
 					4804: APP#8
-					2500 - RENT for 7/19 [NTR]
+					2500 - RENT for 7/19 [TR]
 					304 - [W&E] [TR]
 					2000 - [MM] [TR]
 
@@ -196,23 +197,40 @@ LEGEND:
 
 		07/14/19
 				 2500: APP#7
-				 2500 - RENT  for 7/19 [NTR]
+				 2500 - RENT  for 6/19 [TR]
 
 	  07/15/19
 				 2500: APP#7
-				 2000 - RENT for 6/19 [NTR]
+				 2000 - RENT for 6/19 [TR]
 				 500 - [W&E] [TR]
 
 				 1000: APP#4
 				 1000 - [W&E] [TR]
 
+				 3650:APP#2
+				 2000: RENT [TR]
+				 1650: [W&E] [TR]
+
 	  07/16/19
 				 2000: APP#7
- 				 2000 - RENT for 6/19 [NTR]
+ 				 2000 - RENT for 6/19 [TR]
 
 		07/19/19
 				2500: APP#3
-				2500 - RENT for 6/19 [NTR]
+				2500 - RENT for 6/19 [TR]
+
+		07/22/19
+		   10293: APP#5 & APP#6
+			 1740: [W&E] [TR]
+			 4000: [MWU] [TR]
+			 2500: [MWU] [TR]
+			 2000: RENT [NTR]
+
+
+
+
+
+
 
 
 	--------------------------------
@@ -241,12 +259,12 @@ LEGEND:
 	JULY
 		APP#1 - DONE [HB]
 		APP#2 - [FR] 7/12/19
-		APP#3 - [FR] 7/28/19
+		APP#3 - DONE 7/28/19
 		APP#4 - [DR] [HB]
 		APP#5 - [FR] 7/5/19
 		APP#6 - [FR] 7/5/19
 		APP#7 - [DR]
-		APP#8 - [FR]
+		APP#8 - DONE
 
 
 
@@ -346,17 +364,16 @@ LEGEND:
 
   ------------------------------------------------
 
-	2500 - RENT [NTR] APP#1
-	3000 - RENT [NTR] APP#2
-	2500 - RENT [NTR] APP#3
-	4500 - 4500 [NTR] INASAL
 
-	total my balance = 12500 [NOT PAID]
+  07/30/19
 
-	UNCLE DEBT - 2000 [NOT PAID]
-	UNCLE DEBT - 1600 [NOT PAID]
 
-	6/28/19 - UNCLE GIVE ME 5k for electricity
+ APP#7 500
+ APP#5 && APP#6 - 2000
+ 500 - ilaw payment
+
+
+
 
 
 
