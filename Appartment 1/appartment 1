@@ -34,7 +34,7 @@ APPARTMENT 1
 		[BALANCE]
 			5797[TB]
 
-		 05/01/19: [*]
+		 05/01/19: [✘]
 		   [2500] - 5797[LB] = 3297[TB]
 
 		 07/02/19
@@ -43,15 +43,16 @@ APPARTMENT 1
 		 07/03/19
 		    4255[TB] - 2000 = 2255[TB]
 
-				2255[TB] + 492 + 162 + 108 + 2500 =  5517[LB]
+		08/01/19
+		 2255[TB] + 492 + 162 + 108 + 2500 =  5517[LB]
 
 
 
 MAY [OD]
-	ELECTRICITY - 936 [*]
+	ELECTRICITY - 936
 	WATER
-		 UP- 232 [*]
-		 DOWN - 290 [*]
+		 UP- 232
+		 DOWN - 290
 	RENT - 2500
 	READING WATER
 		UP - 467
@@ -86,7 +87,7 @@ AUGUST
 	WATER
 		 UP-
 	 	 DOWN -
-	RENT -
+	RENT - 2500
 	READING WATER
 		UP -
 		DOWN -

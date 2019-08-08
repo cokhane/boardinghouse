@@ -219,8 +219,7 @@ LEGEND:
 
 		07/19/19
 				2500: APP#3
-				2000 - RENT for 6/19 [TR]
-				500 - [W&E] NTR
+				2500 - RENT for 6/19 [TR]
 
 		07/22/19
 
@@ -279,11 +278,11 @@ LEGEND:
 
 	JULY
 		APP#1 - DONE [HB]
-		APP#2 - [FR] 7/12/19
-		APP#3 - DONE 7/28/19
-		APP#4 - [DR] [HB]
-		APP#5 - [FR] 7/5/19
-		APP#6 - [FR] 7/5/19
+		APP#2 - [OD] [DR]
+		APP#3 - [OD] [HB]
+		APP#4 - DONE [HB]
+		APP#5 - [DR]
+		APP#6 - [DR]
 		APP#7 - [DR]
 		APP#8 - DONE
 
@@ -350,8 +349,14 @@ LEGEND:
 
 		JULY	:
 				ELECTRICITY: 6659
+				WATER: INSIRIJAM : 2349
+				WATER: JABIL :1078
+
+		AUGUST	:
+				ELECTRICITY: 590
 				WATER: INSIRIJAM :
 				WATER: JABIL :
+
 
 
   ------------------------------------------------
