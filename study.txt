@@ -55,12 +55,12 @@ js framework
 single page application
   - it rerenders parts of the dom and fetch the data
   - it will not get a new html file but instead it only get some data and display it
-  - its much faster 
+  - its much faster
   - its highly reactive where its very fast and transitions goes instantly
   - you have a preocupied frontend which mean that the code from the backend is separated, usually use api
     to contact the backend
-  - SEO is challenging, it takes a advance knowledge to make SPA a SEO friendly, google bot usually having a 
-    hard time when page is rendered async, crawler when  visiting a page usually thinks that this page is finish 
+  - SEO is challenging, it takes a advance knowledge to make SPA a SEO friendly, google bot usually having a
+    hard time when page is rendered async, crawler when  visiting a page usually thinks that this page is finish
      loading they dont know if there are still data that is gonna be rerendered
   - tends to favor modern browser
   - cant run when javascript is turn off
@@ -112,7 +112,7 @@ virtual dom
   - its a representation of real dom
   - when ever data changes, the entire ui i rendered in virtual dom
   all changes are calculated. then if all changes and calculation is done
-  only then will the real dom will be updated 
+  only then will the real dom will be updated
 
 serverside render
 
@@ -143,8 +143,8 @@ difference of statefull and stateless
     - contains history of states
   - STATELESS
     - calculates the iternal state of the components
-    - no authority 
-    - no history  
+    - no authority
+    - no history
     - recieve props from the stateful components and treate them as callback
      function
 
@@ -161,8 +161,8 @@ what are the life cycle?
    returns true or false value based on certain contion. false is default
   - comoponentWillUpdate()
    is called just before rendering take place
-  -componentDidUpdate() 
+  -componentDidUpdate()
    is called just after rendering takes palce
   -componentWillUnmount()
    is called after the component is unmounted from the dom
-   to clear up the memory space 
+   to clear up the memory space
