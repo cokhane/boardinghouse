@@ -6,7 +6,7 @@ APPARTMENT 1
 	WR - 29
 	ER = 12
 
-	["x"] - cash paid
+ - cash paid
 
 	[BALANCE]
 			12/30/18- 3043
@@ -44,7 +44,20 @@ APPARTMENT 1
 		    4255[TB] - 2000 = 2255[TB]
 
 		08/01/19
-		 2255[TB] + 492 + 162 + 108 + 2500 =  5517[LB]
+		 2255[TB] + 492[E] + 162[WU] + 108[WD] + 2500 =  5517[TB]
+
+		08/08/19
+			5517[TB] - 2000 = 3517[TB]
+
+		08/27/19
+			3517[TB] - 1500 = 2017[TB]
+
+		09/01/19
+			2017[TB] + 675[E] + 245[WD] + 210[WU] + 2500[R] = 5674[LB]
+
+
+
+
 
 
 
@@ -71,10 +84,10 @@ JUNE
 	READING ELECTRICITY - 3774
 
 JULY
-	ELECTRICITY -
+	ELECTRICITY - 675
 	WATER
-		 UP-
-		 DOWN -
+		 UP- 210
+		 DOWN - 245
 	RENT - 2500
 	READING WATER
 		UP - 481
@@ -89,9 +102,23 @@ AUGUST
 	 	 DOWN -
 	RENT - 2500
 	READING WATER
+		UP - 487
+		DOWN - 352
+	READING ELECTRICITY - 3860
+
+
+
+SEPTEMBER
+	ELECTRICITY -
+	WATER
+		 UP-
+	 	 DOWN -
+	RENT - 2500  [✘]
+	READING WATER
 		UP -
 		DOWN -
 	READING ELECTRICITY -
+
 
 
 

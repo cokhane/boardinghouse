@@ -1,6 +1,6 @@
-UPDATED THIS: 8/8/19
+UPDATED THIS: 9/9/19
 
-4:49 pm
+8/8/19
 
 
 
@@ -32,7 +32,7 @@ LEGEND:
  [CP] = CASH PAID
  [UFB] = USE FOR BILLS
  [OD] = OVERDUE
- [*] = DOUBLE CHECK / ERROR
+ [✘] = DOUBLE CHECK / ERROR
  [MWU] = MONEY WITH UNCLE
  [DLY]  = DELAYED
  [MM] = MY MONEY
@@ -231,7 +231,7 @@ LEGEND:
 			 1740: [W&E] [TR]
 			 4000: [MWU] [TR]
 			 2500: [MWU] [TR]
-			 2000: RENT [NTR]
+			 2000: RENT FOR 7/19 [TR]
 
 
 		 07/25/19
@@ -239,8 +239,9 @@ LEGEND:
  			1000: APP#4
  			1000 - [W&E] [TR]
 
-			 AUGUST
-		--------------------------------------------------------------------
+
+		AUGUST --------------------------------------------------------------------
+
 		08/01/19
 				 4000: APP#7
 				 4000 - RENT for 7/19 [TR]
@@ -251,36 +252,76 @@ LEGEND:
 
 		08/08/19
 				 1000: APP#4
-				 1000 - [NTR]
+				 1000 - RENT FOR 07/19 [TR]
 
 				 2000: APP#1
-				 2000 - [NTR]
-
+				 2000 - RENT FOR 08/19 [NTR]
 
 
 		08/12/19:
 				7500: APP#7
-				4000: RENT [NTR]
+				4000: RENT  for 8/19  [TR]
 				3500: [W&E] [NTR]
 
-
 				10286: APP#5 & APP#6
+				4000: RENT FOR 8/19 [TR]
+				2500: [W&E] [NTR]
+				2000: [MWU]
+				1786: [W&E] [NTR]
 
 
 		08/17/19:
 				3551: APP#2
-				3000: RENT [NTR]
+				3000: RENT FOR 8/19 [TR]
 				551: [W&E] [NTR]
 
 				3500: APP#3
-				3000: RENT [NTR]
-				500: [W&E] [NTR]
+				2500: RENT FOR 7/19 [TR]
+				1000: [W&E] [NTR]
 
 
 		08/25/19
 				1000:APP#4
+				1000: RENT FOR 07/19 [TR]
+
+		08/27/19
+				1500:APP#1
+				500: RENT FOR 08/19 [NTR]
+				1000: [W&E] [NTR]
+
+				1000:APP#4
+				500: RENT FOR 07/19 [TR]
+				500: RENT FOR 08/19 [TR]
 
 
+
+
+
+		SEPTEMBER  --------------------------------------------------------------------
+
+
+		09/03/19
+			2399:APP#8
+			2399:RENT FOR 9/19 [DEPOSIT] [✘]
+
+
+		09/06/19
+			1000:APP#4
+			1000:RENT FOR 08/19 [TR]
+
+			7000:APP#8
+			1000: [MWU] [DEPOSIT]
+			3000: RENT FOR 9/19 [TR]
+			3000: [DEPOSIT] [NTR]
+
+		09/09/19
+			1000:APP#4
+			1000:RENT FOR 08/19 [TR]
+
+			6500: APP#5 & APP#6
+			4000: RENT FOR 9/19 [NTR]
+			500:  [W&E] [NTR]
+			1500: [MWU]
 
 
 
@@ -301,6 +342,7 @@ LEGEND:
 		APP#8 - DONE
 
 	JUNE
+
 		APP#1 - DONE [HB]
 		APP#2 - DONE
 		APP#3 - [OD] [HB]
@@ -321,15 +363,26 @@ LEGEND:
 		APP#8 - DONE
 
 
-		AUGUST
-			APP#1 - DONE [HB]
-			APP#2 - [FR] 7/12/19
-			APP#3 - DONE 7/28/19
-			APP#4 - [DR] [HB]
-			APP#5 - [FR] 7/5/19
-			APP#6 - [FR] 7/5/19
-			APP#7 - [DR]
-			APP#8 - DONE
+	AUGUST 1
+		APP#1 - DONE [HB]
+		APP#2 - DONE
+		APP#3 - DONE [HB]
+		APP#4 - DONE [HB]
+		APP#5 - DONE
+		APP#6 - DONE
+		APP#7 - DONE [HB]
+		APP#8 - DONE
+
+
+		SEPTEMBER
+				APP#1 - [DR] [HB]
+				APP#2 - [FR]
+				APP#3 - [FR]
+				APP#4 - [DR]
+				APP#5 - [DR]
+				APP#6 - [DR]
+				APP#7 - [DR]
+				APP#8 -
 
 
 
@@ -387,9 +440,15 @@ LEGEND:
 				WATER: JABIL :1078
 
 		AUGUST	:
-				ELECTRICITY: 590
+				ELECTRICITY: 5905
 				WATER: INSIRIJAM : 3734
 				WATER: JABIL : 1074
+
+
+		SEPTEMBER	:
+				ELECTRICITY: 5158
+				WATER: INSIRIJAM :
+				WATER: JABIL :
 
 
 
