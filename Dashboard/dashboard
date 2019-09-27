@@ -68,10 +68,22 @@ LEGEND:
 	APP#5 - 6500
 	APP#6 - 2000
 	APP#7 - 4000
-	APP#8 - 2500
+	APP#8 - 3000
 	________________
 
-	TOTAL - 25,5000
+	TOTAL - 26,000 - 2000[MWU] = 24000
+
+
+
+
+
+
+
+
+
+
+
+
 
   --------------------------------
   MONTHLY CASH RECIEVE
@@ -248,11 +260,11 @@ LEGEND:
 
 		08/02/19
 				 1000: APP#7
-				 1000 - [W&E] [NTR]
+				 1000 - [W&E] [TR]
 
 		08/08/19
 				 1000: APP#4
-				 1000 - RENT FOR 07/19 [TR]
+				 1000 - RENT FOR 07/19 [NTR]
 
 				 2000: APP#1
 				 2000 - RENT FOR 08/19 [NTR]
@@ -261,28 +273,28 @@ LEGEND:
 		08/12/19:
 				7500: APP#7
 				4000: RENT  for 8/19  [TR]
-				3500: [W&E] [NTR]
+				3500: [W&E] [TR]
 
 				10286: APP#5 & APP#6
 				4000: RENT FOR 8/19 [TR]
-				2500: [W&E] [NTR]
+				2500: [MWU]
 				2000: [MWU]
-				1786: [W&E] [NTR]
+				1786: [W&E] [TR]
 
 
 		08/17/19:
 				3551: APP#2
 				3000: RENT FOR 8/19 [TR]
-				551: [W&E] [NTR]
+				551: [W&E] [TR]
 
-				3500: APP#3
+				3500: APP#3 [WB]
 				2500: RENT FOR 7/19 [TR]
-				1000: [W&E] [NTR]
+				1000: [W&E] [TR]
 
 
 		08/25/19
 				1000:APP#4
-				1000: RENT FOR 07/19 [TR]
+				1000: RENT FOR 07/19 [NTR]
 
 		08/27/19
 				1500:APP#1
@@ -290,8 +302,8 @@ LEGEND:
 				1000: [W&E] [NTR]
 
 				1000:APP#4
-				500: RENT FOR 07/19 [TR]
-				500: RENT FOR 08/19 [TR]
+				500: RENT FOR 07/19 [NTR]
+				500: RENT FOR 08/19 [NTR]
 
 
 
@@ -310,18 +322,44 @@ LEGEND:
 			1000:RENT FOR 08/19 [TR]
 
 			7000:APP#8
-			1000: [MWU] [DEPOSIT]
+			1000: [MWU] [DEPOSIT] - ina lasa got it
 			3000: RENT FOR 9/19 [TR]
-			3000: [DEPOSIT] [NTR]
+			3000: [DEPOSIT] [TR]
 
 		09/09/19
 			1000:APP#4
 			1000:RENT FOR 08/19 [TR]
 
-			6500: APP#5 & APP#6
+			8500: APP#5 & APP#6
+			6500: RENT FOR 9/19 [NTR] - 4500 da in dihil
+			2000: [MWU]
+
+
+		09/13/19
+			1500:APP#1
+			1500:[MWU]
+
+
+		09/16/19
+			 3836:APP#2
+			 3000: RENT FOR 9/19 [TR]
+			 836: [W&E] [NTR]
+
+		 	 1000:APP#4
+			 1000:RENT FOR 09/19 [NTR]
+
+		09/18/19
+			6268:APP#7
+			2268: [W&E] [NTR]
 			4000: RENT FOR 9/19 [NTR]
-			500:  [W&E] [NTR]
-			1500: [MWU]
+
+
+		09/20/19
+			1692: APP#5 & APP#6
+			611: [MWU]
+			1081: [MWU]
+
+
 
 
 
@@ -374,15 +412,15 @@ LEGEND:
 		APP#8 - DONE
 
 
-		SEPTEMBER
-				APP#1 - [DR] [HB]
-				APP#2 - [FR]
-				APP#3 - [FR]
-				APP#4 - [DR]
-				APP#5 - [DR]
-				APP#6 - [DR]
-				APP#7 - [DR]
-				APP#8 -
+	SEPTEMBER
+			APP#1 - [DR] [HB]
+			APP#2 - [FR]
+			APP#3 - [FR]
+			APP#4 - [DR]
+			APP#5 - [DR]
+			APP#6 - [DR]
+			APP#7 - [DR]
+			APP#8 -
 
 
 
